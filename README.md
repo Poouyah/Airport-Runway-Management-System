@@ -2,7 +2,7 @@
 
 ### 📜 Overview
 
-This Python program simulates an airport runway management system. The airport has k runways, each numbered from 1 to k. Airplanes, each identified by a unique 10-digit ID, can be in one of four possible states at any given time:
+This Python program simulates an airport runway management system. The airport has k runways, each numbered from 1 to k. Airplanes, each identified by a unique 10-digit `<ID>`, can be in one of four possible states at any given time:
 
 At the airport, not occupying a runway.
 
@@ -33,26 +33,26 @@ An integer q representing the number of commands to be processed.
 
 Commands:
 
-TAKE-OFF <ID>: Manage the take-off request of the airplane with the specified ID.
+- `TAKE-OFF <ID>`: Manage the take-off request of the airplane with the specified ID.
 
-LANDING <ID>: Manage the landing request of the airplane with the specified ID.
+* `LANDING <ID>`: Manage the landing request of the airplane with the specified ID.
 
-PLANE-STATUS <ID>: Query the current status of the airplane with the specified ID.
++ `PLANE-STATUS <ID>`: Query the current status of the airplane with the specified ID.
 
-BAND-STATUS <LINE>: Query the status of the specified runway.
+- `BAND-STATUS <LINE>`: Query the status of the specified runway.
 
 
 ### 📤 Output
 
 The program produces output based on the commands:
 
-TAKE-OFF: Outputs the status of the take-off request.
+- `TAKE-OFF`: Outputs the status of the take-off request.
 
-LANDING: Outputs the status of the landing request.
+* `LANDING`: Outputs the status of the landing request.
 
-PLANE-STATUS: Outputs the current status of the specified airplane.
++ `PLANE-STATUS`: Outputs the current status of the specified airplane.
 
-BAND-STATUS: Outputs the current status of the specified runway.
+- `BAND-STATUS`: Outputs the current status of the specified runway.
 
 ### 📚 Example
 
